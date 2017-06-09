@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AGVolumeControlView_Example' do
+  pod 'AGVolumeControlView', :path => '../'
+
+  target 'AGVolumeControlView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
