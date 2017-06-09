@@ -1,0 +1,6 @@
+framework module AGVolumeControlView {
+  umbrella header "AGVolumeControlView-umbrella.h"
+
+  export *
+  module * { export * }
+}

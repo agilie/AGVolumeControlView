@@ -1,25 +1,95 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="VPH-vh-sN9">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="ZhM-bb-jZo">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VPH-vh-sN9" customClass="ViewController" customModule="AGVolumeControlView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="5mO-QI-TMj"/>
+                        <viewControllerLayoutGuide type="bottom" id="ir9-Jd-Axf"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="inX-2t-UkP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G0v-OK-eI8" customClass="AGVolumeControl" customModule="AGVolumeControlView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="thumbColor">
+                                        <color key="value" red="0.46069463589999998" green="0.98039215690000003" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="hueStart">
+                                        <real key="value" value="0.46000000000000002"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="hueEnd">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="thumbRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oC7-iV-PZf">
+                                <rect key="frame" x="122" y="588" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="oC7-iV-PZf" secondAttribute="height" multiplier="1:1" id="To1-IN-5Wp"/>
+                                    <constraint firstAttribute="width" constant="50" id="XPK-fO-EHX"/>
+                                </constraints>
+                                <state key="normal" image="playButton"/>
+                                <connections>
+                                    <action selector="playButtonDidTouch:" destination="VPH-vh-sN9" eventType="touchUpInside" id="LrM-12-b0G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xtP-hM-Kb3">
+                                <rect key="frame" x="202.5" y="588" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="5Yu-HX-Nzu"/>
+                                    <constraint firstAttribute="width" secondItem="xtP-hM-Kb3" secondAttribute="height" multiplier="1:1" id="oyw-uI-9ge"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="0.3166946309" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" image="stopButton"/>
+                                <connections>
+                                    <action selector="stopButtonDidTouch:" destination="VPH-vh-sN9" eventType="touchUpInside" id="prh-P7-F4B"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xtP-hM-Kb3" firstAttribute="centerX" secondItem="inX-2t-UkP" secondAttribute="centerX" constant="40" id="2BN-F8-dyg"/>
+                            <constraint firstItem="xtP-hM-Kb3" firstAttribute="centerY" secondItem="oC7-iV-PZf" secondAttribute="centerY" id="3UC-7z-4Gt"/>
+                            <constraint firstItem="ir9-Jd-Axf" firstAttribute="top" secondItem="G0v-OK-eI8" secondAttribute="bottom" id="4Oo-uu-YVh"/>
+                            <constraint firstItem="xtP-hM-Kb3" firstAttribute="leading" secondItem="oC7-iV-PZf" secondAttribute="trailing" constant="30" id="Cdb-6Y-emF"/>
+                            <constraint firstItem="G0v-OK-eI8" firstAttribute="leading" secondItem="inX-2t-UkP" secondAttribute="leading" id="HY6-GB-VU0"/>
+                            <constraint firstItem="ir9-Jd-Axf" firstAttribute="top" secondItem="xtP-hM-Kb3" secondAttribute="bottom" constant="29" id="InN-GB-zV6"/>
+                            <constraint firstItem="G0v-OK-eI8" firstAttribute="top" secondItem="inX-2t-UkP" secondAttribute="top" id="YXH-DH-FLB"/>
+                            <constraint firstAttribute="trailing" secondItem="G0v-OK-eI8" secondAttribute="trailing" id="o4l-1j-Qsb"/>
+                            <constraint firstItem="xtP-hM-Kb3" firstAttribute="width" secondItem="oC7-iV-PZf" secondAttribute="width" id="qAX-Sh-WaV"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="playButton" destination="oC7-iV-PZf" id="vEH-QS-gHO"/>
+                        <outlet property="stopButton" destination="xtP-hM-Kb3" id="i6d-8d-hFC"/>
+                        <outlet property="volumeControl" destination="G0v-OK-eI8" id="Oij-9w-W1V"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d8q-jU-DtV" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-68" y="-39"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="playButton" width="16" height="16"/>
+        <image name="stopButton" width="16" height="16"/>
+    </resources>
 </document>

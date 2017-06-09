@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0906DF70A494E7F8650FEB98EA8134BF /* AGVolumeControlView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B054DA5BD354768A8150C63969376CF8 /* AGVolumeControlView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E566B4E9F23D399176666A6FC69AE87 /* AGArcStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C8FCEEE07347ADA9C40D53D3049B20 /* AGArcStruct.swift */; };
+		25952EFF747D6ED4C73692BFA61FAD62 /* Pods-AGVolumeControlView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF7AF9A3463CCCD5D201FA0F838FEC9 /* Pods-AGVolumeControlView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		290831E32DE89FA921E2C12D12103E26 /* AGVolumeControlSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C333369C9266164A84F49614F4F68EC /* AGVolumeControlSlider.swift */; };
+		37F511F8307F88AEB661957B319C4B6B /* AGVolumeControlDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DAA90ACBE68C00FBB481D53780017 /* AGVolumeControlDrawView.swift */; };
+		472D575D18B9C924CA7E65478100EA2C /* Pods-AGVolumeControlView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B49821BCE02C3EA06E93F2ED059B83 /* Pods-AGVolumeControlView_Tests-dummy.m */; };
+		4C57AC8AAE6552006A7D771F31B235A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		4D1C284B009F4EF864FDC61A75459018 /* AGVolumeControlGradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065FE8D0FB50CCA0C4EBF9CD02DE269 /* AGVolumeControlGradientBackground.swift */; };
+		56F2894D85A7057999885765698A7679 /* UIColor+AGColoredGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2820E0A86D540BD667970B4974AD2CDE /* UIColor+AGColoredGradient.swift */; };
+		66855D84E1AF87F92F32488AE7BB2044 /* Pods-AGVolumeControlView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5432060781A28D060A37F122DE64C6A2 /* Pods-AGVolumeControlView_Example-dummy.m */; };
+		7070E4AB0DEA82F911F2359AE6C97490 /* Pods-AGVolumeControlView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC1B814E4EE6514AE4B65BD3478C6FD /* Pods-AGVolumeControlView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86D2E30E1DB9EE6F50A7228723DACE84 /* AGVolumeControlMathHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87637745DCFFF3CB3130EEBD1DAEC53 /* AGVolumeControlMathHelper.swift */; };
+		92A79264EC784E6803B4949CCB553395 /* AGCircleStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD17D5F0C209091A4B086139D699823B /* AGCircleStruct.swift */; };
+		B0618794D3BC2AEB16758E8D82F7FE9E /* AGVolumeControlLinearGradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE7B0A0217E486190410478D4F7D677 /* AGVolumeControlLinearGradientBackground.swift */; };
+		C720139C0126B203BFC476F0E435B6C3 /* AGVolumeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2343FFF08169732A040C422112CAF6B4 /* AGVolumeControl.swift */; };
+		E0CFBB81FB130C9045FF7551D078AC2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		E67EF79E5C3424B7ACA464DBE9D3C981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F3D8B17CBD8DFCA5EC8DE24371169991 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F73F5D56C102C53D4D39327E99398E15 /* AGVolumeControlView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7894CC8D82DDE2053796012C5E9821 /* AGVolumeControlView-dummy.m */; };
+		F9B0876496D5252967F17DA7B406DBAF /* AGIntervalStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814579BB67A1777158B1524F864B8949 /* AGIntervalStruct.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		431802C5F03FDE52DCC0DF95B60C5E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E8F4080D914C5132EF1832E253E0749;
+			remoteInfo = AGVolumeControlView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013DF16A961C65BD434AB8FBF9DFEE57 /* Pods-AGVolumeControlView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGVolumeControlView_Example-resources.sh"; sourceTree = "<group>"; };
+		0E7894CC8D82DDE2053796012C5E9821 /* AGVolumeControlView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGVolumeControlView-dummy.m"; sourceTree = "<group>"; };
+		1CBBFBD291C366B35CFBD0F52A9D92C4 /* Pods-AGVolumeControlView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGVolumeControlView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2343FFF08169732A040C422112CAF6B4 /* AGVolumeControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGVolumeControl.swift; sourceTree = "<group>"; };
+		260F12EC03B8E0CEFDA10D91EAF0F00F /* Pods-AGVolumeControlView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGVolumeControlView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2820E0A86D540BD667970B4974AD2CDE /* UIColor+AGColoredGradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+AGColoredGradient.swift"; sourceTree = "<group>"; };
+		29FAAC5BEF1D557694DC6703451C3FC7 /* Pods-AGVolumeControlView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGVolumeControlView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B3EA8043660E6C853F53FDC3A8C124D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E7A3AB0E33C4EBC0B0E54A876B0C429 /* Pods_AGVolumeControlView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AGVolumeControlView_Tests.framework; path = "Pods-AGVolumeControlView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EAE6FEE4906378C3128BCC9287F852 /* Pods-AGVolumeControlView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AGVolumeControlView_Tests.modulemap"; sourceTree = "<group>"; };
+		314E696C110367ABA9D2E9DC2B64EA51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F96EBFBBCF794B680AB56E5EBAA229 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B1090CCD90660A8D03B5113F9732090 /* Pods_AGVolumeControlView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AGVolumeControlView_Example.framework; path = "Pods-AGVolumeControlView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CE81797E3EA6E0756A25A6E87A0907 /* Pods-AGVolumeControlView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGVolumeControlView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5432060781A28D060A37F122DE64C6A2 /* Pods-AGVolumeControlView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGVolumeControlView_Example-dummy.m"; sourceTree = "<group>"; };
+		5723F0853EFDB74D22F83C33840D30C4 /* Pods-AGVolumeControlView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGVolumeControlView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5DDCF0E25D9B6DA84A6DFA08B842D86C /* Pods-AGVolumeControlView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AGVolumeControlView_Example.modulemap"; sourceTree = "<group>"; };
+		6DE7B0A0217E486190410478D4F7D677 /* AGVolumeControlLinearGradientBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGVolumeControlLinearGradientBackground.swift; sourceTree = "<group>"; };
+		723A8171C5AFC8BA68D6CED3B8E527BA /* Pods-AGVolumeControlView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGVolumeControlView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E7A3889A6C77DF6407E3C239A38F988 /* Pods-AGVolumeControlView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGVolumeControlView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8065FE8D0FB50CCA0C4EBF9CD02DE269 /* AGVolumeControlGradientBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGVolumeControlGradientBackground.swift; sourceTree = "<group>"; };
+		814579BB67A1777158B1524F864B8949 /* AGIntervalStruct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGIntervalStruct.swift; sourceTree = "<group>"; };
+		8A5E204EB3C8C6D3A98F3242C8F5D2EE /* Pods-AGVolumeControlView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGVolumeControlView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8AC1B814E4EE6514AE4B65BD3478C6FD /* Pods-AGVolumeControlView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGVolumeControlView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C333369C9266164A84F49614F4F68EC /* AGVolumeControlSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGVolumeControlSlider.swift; sourceTree = "<group>"; };
+		A145FFE3CC77DAD218118D5FA40204BB /* Pods-AGVolumeControlView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGVolumeControlView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7D78E2C6D1B93BC974264BFD03F0402 /* Pods-AGVolumeControlView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGVolumeControlView_Tests-resources.sh"; sourceTree = "<group>"; };
+		ABF7AF9A3463CCCD5D201FA0F838FEC9 /* Pods-AGVolumeControlView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGVolumeControlView_Example-umbrella.h"; sourceTree = "<group>"; };
+		B054DA5BD354768A8150C63969376CF8 /* AGVolumeControlView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGVolumeControlView-umbrella.h"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B6C8FCEEE07347ADA9C40D53D3049B20 /* AGArcStruct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGArcStruct.swift; sourceTree = "<group>"; };
+		BECF29E59ED256EA4A87BE726569CE89 /* AGVolumeControlView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGVolumeControlView-prefix.pch"; sourceTree = "<group>"; };
+		C05896EEEBFD81EA4070A3FD6ED5DBD3 /* Pods-AGVolumeControlView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGVolumeControlView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D6B49821BCE02C3EA06E93F2ED059B83 /* Pods-AGVolumeControlView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGVolumeControlView_Tests-dummy.m"; sourceTree = "<group>"; };
+		D87637745DCFFF3CB3130EEBD1DAEC53 /* AGVolumeControlMathHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGVolumeControlMathHelper.swift; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA9DAA90ACBE68C00FBB481D53780017 /* AGVolumeControlDrawView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGVolumeControlDrawView.swift; sourceTree = "<group>"; };
+		E1694EBE564FBCE59590D8EC40D31260 /* AGVolumeControlView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AGVolumeControlView.framework; path = AGVolumeControlView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E856C771CCC892ADD83930668A157E4F /* AGVolumeControlView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AGVolumeControlView.modulemap; sourceTree = "<group>"; };
+		FC600B2A1E2C1330E26815AF74BFA9B3 /* AGVolumeControlView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGVolumeControlView.xcconfig; sourceTree = "<group>"; };
+		FD17D5F0C209091A4B086139D699823B /* AGCircleStruct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGCircleStruct.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		080A3DA3028ECE830B0E7521CEC29E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C57AC8AAE6552006A7D771F31B235A2 /* Foundation.framework in Frameworks */,
+				E0CFBB81FB130C9045FF7551D078AC2B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C6FD75EDD75EF61F3938CB945039E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67EF79E5C3424B7ACA464DBE9D3C981 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EEFC4F54D8BD593A585AD64D403622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D8B17CBD8DFCA5EC8DE24371169991 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C8A9309BB79D772E47F54C26F30D307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1694EBE564FBCE59590D8EC40D31260 /* AGVolumeControlView.framework */,
+				3B1090CCD90660A8D03B5113F9732090 /* Pods_AGVolumeControlView_Example.framework */,
+				2E7A3AB0E33C4EBC0B0E54A876B0C429 /* Pods_AGVolumeControlView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24EB1683057BB58F68DF4C521B4744D4 /* AGVolumeControlView */ = {
+			isa = PBXGroup;
+			children = (
+				D0B2DA62C64EBA8B210AFFE8962A7C8E /* Classes */,
+			);
+			name = AGVolumeControlView;
+			path = AGVolumeControlView;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F9F606B2FDEEC0D2D069657C15233004 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				1C8A9309BB79D772E47F54C26F30D307 /* Products */,
+				E7C62847BCA2D0D86C69E0883C5D133C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F4FC96BAADF5B9E60C30F3438CF1DB7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E856C771CCC892ADD83930668A157E4F /* AGVolumeControlView.modulemap */,
+				FC600B2A1E2C1330E26815AF74BFA9B3 /* AGVolumeControlView.xcconfig */,
+				0E7894CC8D82DDE2053796012C5E9821 /* AGVolumeControlView-dummy.m */,
+				BECF29E59ED256EA4A87BE726569CE89 /* AGVolumeControlView-prefix.pch */,
+				B054DA5BD354768A8150C63969376CF8 /* AGVolumeControlView-umbrella.h */,
+				314E696C110367ABA9D2E9DC2B64EA51 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AGVolumeControlView";
+			sourceTree = "<group>";
+		};
+		A4970E8F97824A00CD6B80A7A3358961 /* Pods-AGVolumeControlView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2B3EA8043660E6C853F53FDC3A8C124D /* Info.plist */,
+				5DDCF0E25D9B6DA84A6DFA08B842D86C /* Pods-AGVolumeControlView_Example.modulemap */,
+				5723F0853EFDB74D22F83C33840D30C4 /* Pods-AGVolumeControlView_Example-acknowledgements.markdown */,
+				723A8171C5AFC8BA68D6CED3B8E527BA /* Pods-AGVolumeControlView_Example-acknowledgements.plist */,
+				5432060781A28D060A37F122DE64C6A2 /* Pods-AGVolumeControlView_Example-dummy.m */,
+				7E7A3889A6C77DF6407E3C239A38F988 /* Pods-AGVolumeControlView_Example-frameworks.sh */,
+				013DF16A961C65BD434AB8FBF9DFEE57 /* Pods-AGVolumeControlView_Example-resources.sh */,
+				ABF7AF9A3463CCCD5D201FA0F838FEC9 /* Pods-AGVolumeControlView_Example-umbrella.h */,
+				8A5E204EB3C8C6D3A98F3242C8F5D2EE /* Pods-AGVolumeControlView_Example.debug.xcconfig */,
+				260F12EC03B8E0CEFDA10D91EAF0F00F /* Pods-AGVolumeControlView_Example.release.xcconfig */,
+			);
+			name = "Pods-AGVolumeControlView_Example";
+			path = "Target Support Files/Pods-AGVolumeControlView_Example";
+			sourceTree = "<group>";
+		};
+		AF83AB58DF0FF61BE6144C6BEE3E3970 /* AGVolumeControlView */ = {
+			isa = PBXGroup;
+			children = (
+				24EB1683057BB58F68DF4C521B4744D4 /* AGVolumeControlView */,
+				7F4FC96BAADF5B9E60C30F3438CF1DB7 /* Support Files */,
+			);
+			name = AGVolumeControlView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CD00B25013ED12E70844D32801DF2149 /* Pods-AGVolumeControlView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				36F96EBFBBCF794B680AB56E5EBAA229 /* Info.plist */,
+				30EAE6FEE4906378C3128BCC9287F852 /* Pods-AGVolumeControlView_Tests.modulemap */,
+				A145FFE3CC77DAD218118D5FA40204BB /* Pods-AGVolumeControlView_Tests-acknowledgements.markdown */,
+				43CE81797E3EA6E0756A25A6E87A0907 /* Pods-AGVolumeControlView_Tests-acknowledgements.plist */,
+				D6B49821BCE02C3EA06E93F2ED059B83 /* Pods-AGVolumeControlView_Tests-dummy.m */,
+				1CBBFBD291C366B35CFBD0F52A9D92C4 /* Pods-AGVolumeControlView_Tests-frameworks.sh */,
+				A7D78E2C6D1B93BC974264BFD03F0402 /* Pods-AGVolumeControlView_Tests-resources.sh */,
+				8AC1B814E4EE6514AE4B65BD3478C6FD /* Pods-AGVolumeControlView_Tests-umbrella.h */,
+				29FAAC5BEF1D557694DC6703451C3FC7 /* Pods-AGVolumeControlView_Tests.debug.xcconfig */,
+				C05896EEEBFD81EA4070A3FD6ED5DBD3 /* Pods-AGVolumeControlView_Tests.release.xcconfig */,
+			);
+			name = "Pods-AGVolumeControlView_Tests";
+			path = "Target Support Files/Pods-AGVolumeControlView_Tests";
+			sourceTree = "<group>";
+		};
+		D0B2DA62C64EBA8B210AFFE8962A7C8E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B6C8FCEEE07347ADA9C40D53D3049B20 /* AGArcStruct.swift */,
+				FD17D5F0C209091A4B086139D699823B /* AGCircleStruct.swift */,
+				814579BB67A1777158B1524F864B8949 /* AGIntervalStruct.swift */,
+				2343FFF08169732A040C422112CAF6B4 /* AGVolumeControl.swift */,
+				DA9DAA90ACBE68C00FBB481D53780017 /* AGVolumeControlDrawView.swift */,
+				8065FE8D0FB50CCA0C4EBF9CD02DE269 /* AGVolumeControlGradientBackground.swift */,
+				6DE7B0A0217E486190410478D4F7D677 /* AGVolumeControlLinearGradientBackground.swift */,
+				D87637745DCFFF3CB3130EEBD1DAEC53 /* AGVolumeControlMathHelper.swift */,
+				9C333369C9266164A84F49614F4F68EC /* AGVolumeControlSlider.swift */,
+				2820E0A86D540BD667970B4974AD2CDE /* UIColor+AGColoredGradient.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E7C62847BCA2D0D86C69E0883C5D133C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4970E8F97824A00CD6B80A7A3358961 /* Pods-AGVolumeControlView_Example */,
+				CD00B25013ED12E70844D32801DF2149 /* Pods-AGVolumeControlView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F9F606B2FDEEC0D2D069657C15233004 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF83AB58DF0FF61BE6144C6BEE3E3970 /* AGVolumeControlView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47547A6FD204BC19F529B317D129078C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7070E4AB0DEA82F911F2359AE6C97490 /* Pods-AGVolumeControlView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32B662361FEFF502D52A89CE6992012 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25952EFF747D6ED4C73692BFA61FAD62 /* Pods-AGVolumeControlView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD0721940FB81943C45F773BD1843C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0906DF70A494E7F8650FEB98EA8134BF /* AGVolumeControlView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D1A06287720C050C67A72FFA1E2A98F /* Pods-AGVolumeControlView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9865B9E73460AB9354606A5FBA1930A2 /* Build configuration list for PBXNativeTarget "Pods-AGVolumeControlView_Tests" */;
+			buildPhases = (
+				C835BFBB0D708DD066DFBB9446B064A9 /* Sources */,
+				48C6FD75EDD75EF61F3938CB945039E5 /* Frameworks */,
+				47547A6FD204BC19F529B317D129078C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AGVolumeControlView_Tests";
+			productName = "Pods-AGVolumeControlView_Tests";
+			productReference = 2E7A3AB0E33C4EBC0B0E54A876B0C429 /* Pods_AGVolumeControlView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E8F4080D914C5132EF1832E253E0749 /* AGVolumeControlView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7D2ECF1A50C464335A1D6157242B9A /* Build configuration list for PBXNativeTarget "AGVolumeControlView" */;
+			buildPhases = (
+				A5BC7F6DFF6A77C754295CC1445FCC36 /* Sources */,
+				080A3DA3028ECE830B0E7521CEC29E27 /* Frameworks */,
+				FBD0721940FB81943C45F773BD1843C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGVolumeControlView;
+			productName = AGVolumeControlView;
+			productReference = E1694EBE564FBCE59590D8EC40D31260 /* AGVolumeControlView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8EEFE9A056A225C4069A7B50F0FDDBA0 /* Pods-AGVolumeControlView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B48CFAFC7F71BE7B5165CE8D3CD2273 /* Build configuration list for PBXNativeTarget "Pods-AGVolumeControlView_Example" */;
+			buildPhases = (
+				EFE218BA58786489918B9D05ADF754F0 /* Sources */,
+				B1EEFC4F54D8BD593A585AD64D403622 /* Frameworks */,
+				C32B662361FEFF502D52A89CE6992012 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				753515C528AB5118DAFD44F5436E5CF8 /* PBXTargetDependency */,
+			);
+			name = "Pods-AGVolumeControlView_Example";
+			productName = "Pods-AGVolumeControlView_Example";
+			productReference = 3B1090CCD90660A8D03B5113F9732090 /* Pods_AGVolumeControlView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1C8A9309BB79D772E47F54C26F30D307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E8F4080D914C5132EF1832E253E0749 /* AGVolumeControlView */,
+				8EEFE9A056A225C4069A7B50F0FDDBA0 /* Pods-AGVolumeControlView_Example */,
+				4D1A06287720C050C67A72FFA1E2A98F /* Pods-AGVolumeControlView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5BC7F6DFF6A77C754295CC1445FCC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E566B4E9F23D399176666A6FC69AE87 /* AGArcStruct.swift in Sources */,
+				92A79264EC784E6803B4949CCB553395 /* AGCircleStruct.swift in Sources */,
+				F9B0876496D5252967F17DA7B406DBAF /* AGIntervalStruct.swift in Sources */,
+				C720139C0126B203BFC476F0E435B6C3 /* AGVolumeControl.swift in Sources */,
+				37F511F8307F88AEB661957B319C4B6B /* AGVolumeControlDrawView.swift in Sources */,
+				4D1C284B009F4EF864FDC61A75459018 /* AGVolumeControlGradientBackground.swift in Sources */,
+				B0618794D3BC2AEB16758E8D82F7FE9E /* AGVolumeControlLinearGradientBackground.swift in Sources */,
+				86D2E30E1DB9EE6F50A7228723DACE84 /* AGVolumeControlMathHelper.swift in Sources */,
+				290831E32DE89FA921E2C12D12103E26 /* AGVolumeControlSlider.swift in Sources */,
+				F73F5D56C102C53D4D39327E99398E15 /* AGVolumeControlView-dummy.m in Sources */,
+				56F2894D85A7057999885765698A7679 /* UIColor+AGColoredGradient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C835BFBB0D708DD066DFBB9446B064A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472D575D18B9C924CA7E65478100EA2C /* Pods-AGVolumeControlView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE218BA58786489918B9D05ADF754F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66855D84E1AF87F92F32488AE7BB2044 /* Pods-AGVolumeControlView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		753515C528AB5118DAFD44F5436E5CF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGVolumeControlView;
+			target = 7E8F4080D914C5132EF1832E253E0749 /* AGVolumeControlView */;
+			targetProxy = 431802C5F03FDE52DCC0DF95B60C5E1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03F70C292B89019486A9C6FF51FAEF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC600B2A1E2C1330E26815AF74BFA9B3 /* AGVolumeControlView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGVolumeControlView/AGVolumeControlView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGVolumeControlView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGVolumeControlView/AGVolumeControlView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AGVolumeControlView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		215F85DC165AB723512190BAEDFDB13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A5E204EB3C8C6D3A98F3242C8F5D2EE /* Pods-AGVolumeControlView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AGVolumeControlView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGVolumeControlView_Example/Pods-AGVolumeControlView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGVolumeControlView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3FD6A03B2CB30853E242C015ECAD21A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C05896EEEBFD81EA4070A3FD6ED5DBD3 /* Pods-AGVolumeControlView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AGVolumeControlView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGVolumeControlView_Tests/Pods-AGVolumeControlView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGVolumeControlView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6453E11CA4C468C0C186E2FFECE5F94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FAAC5BEF1D557694DC6703451C3FC7 /* Pods-AGVolumeControlView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AGVolumeControlView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGVolumeControlView_Tests/Pods-AGVolumeControlView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGVolumeControlView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B358793E15C240DEF65244A2D6B3537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 260F12EC03B8E0CEFDA10D91EAF0F00F /* Pods-AGVolumeControlView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AGVolumeControlView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGVolumeControlView_Example/Pods-AGVolumeControlView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGVolumeControlView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA4B15442EACCC086AEA3074777E1C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC600B2A1E2C1330E26815AF74BFA9B3 /* AGVolumeControlView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGVolumeControlView/AGVolumeControlView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGVolumeControlView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGVolumeControlView/AGVolumeControlView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AGVolumeControlView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B48CFAFC7F71BE7B5165CE8D3CD2273 /* Build configuration list for PBXNativeTarget "Pods-AGVolumeControlView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215F85DC165AB723512190BAEDFDB13D /* Debug */,
+				9B358793E15C240DEF65244A2D6B3537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7D2ECF1A50C464335A1D6157242B9A /* Build configuration list for PBXNativeTarget "AGVolumeControlView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4B15442EACCC086AEA3074777E1C14 /* Debug */,
+				03F70C292B89019486A9C6FF51FAEF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9865B9E73460AB9354606A5FBA1930A2 /* Build configuration list for PBXNativeTarget "Pods-AGVolumeControlView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6453E11CA4C468C0C186E2FFECE5F94A /* Debug */,
+				3FD6A03B2CB30853E242C015ECAD21A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

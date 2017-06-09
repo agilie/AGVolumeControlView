@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		C18F829909E33EE01A2FFC99 /* Pods_AGVolumeControlView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4003039D4F27E6DA7C731FFC /* Pods_AGVolumeControlView_Tests.framework */; };
+		CEA899161EEAF2CD00ECB19D /* YDOM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEA899151EEAF2CD00ECB19D /* YDOM.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0672442EE17E6D5DAC17F56D /* AGVolumeControlView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AGVolumeControlView.podspec; path = ../AGVolumeControlView.podspec; sourceTree = "<group>"; };
+		0672442EE17E6D5DAC17F56D /* AGVolumeControlView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AGVolumeControlView.podspec; path = ../AGVolumeControlView.podspec; sourceTree = "<group>"; };
 		1D5550E6CC4F0485CD45F33E /* Pods-AGVolumeControlView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGVolumeControlView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGVolumeControlView_Example/Pods-AGVolumeControlView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		21BF39A2CCE4CB5E767D1BD2 /* Pods_AGVolumeControlView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGVolumeControlView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		25D0A828BA45EA939CB9DD12 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		25D0A828BA45EA939CB9DD12 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		35E7FE0A6859B55E75C9DDD2 /* Pods-AGVolumeControlView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGVolumeControlView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGVolumeControlView_Tests/Pods-AGVolumeControlView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4003039D4F27E6DA7C731FFC /* Pods_AGVolumeControlView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGVolumeControlView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* AGVolumeControlView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGVolumeControlView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +45,8 @@
 		607FACE51AFB9204008FA782 /* AGVolumeControlView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGVolumeControlView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A1C3607EC67356A6A407AD1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A1C3607EC67356A6A407AD1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CEA899151EEAF2CD00ECB19D /* YDOM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YDOM.mp3; sourceTree = "<group>"; };
 		EAC6D158E9C6B2446883F984 /* Pods-AGVolumeControlView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGVolumeControlView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGVolumeControlView_Example/Pods-AGVolumeControlView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ECF7ACA42F6E97A394C94785 /* Pods-AGVolumeControlView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGVolumeControlView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGVolumeControlView_Tests/Pods-AGVolumeControlView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +106,7 @@
 		607FACD21AFB9204008FA782 /* Example for AGVolumeControlView */ = {
 			isa = PBXGroup;
 			children = (
+				CEA899151EEAF2CD00ECB19D /* YDOM.mp3 */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -251,6 +254,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				CEA899161EEAF2CD00ECB19D /* YDOM.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

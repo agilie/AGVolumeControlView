@@ -1,0 +1,16 @@
+PODS:
+  - AGVolumeControlView (0.1.0)
+
+DEPENDENCIES:
+  - AGVolumeControlView (from `../`)
+
+EXTERNAL SOURCES:
+  AGVolumeControlView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AGVolumeControlView: 9cf519ad35bc9a1214488bd10804fddd39c26322
+
+PODFILE CHECKSUM: fd091dedd20f3ff168f1d66a05d8360009b1fab5
+
+COCOAPODS: 1.2.1
