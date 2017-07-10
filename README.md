@@ -1,12 +1,39 @@
-# AGVolumeControlView
+<p align="center">
 
-  We’re happy to introduce you a new free regulator AGVolumeControlView based on our lightweight open-source visual component that doesn't require extra lines of code and can be easily integrated into your project.
+<img src="https://user-images.githubusercontent.com/4165054/28015539-13b77d22-6579-11e7-958f-776bc1d6878a.png" alt="AGVolumeControlView" title="AGVolumeControlView" width="557"/>
+</p>
+
+  <p>
+
+</p>
+
+<p align="center">
+
+<a href="https://www.agilie.com?utm_source=github&utm_medium=referral&utm_campaign=Git_Swift&utm_term=AGVolumeControlView">
+<img src="https://img.shields.io/badge/Made%20by%20Agilie-*****-green.svg?style=flat" alt="Made by Agilie">
+</a>
+
+<a href="https://travis-ci.org/liptugamichael@gmail.com/AGVolumeControlView">
+<img src="http://img.shields.io/travis/liptugamichael@gmail.com/AGVolumeControlView.svg?style=flat" alt="CI Status">
+</a>
+
+<a href="http://cocoapods.org/pods/AGVolumeControlView">
+<img src="https://img.shields.io/cocoapods/v/AGVolumeControlView.svg?style=flat" alt="Version">
+</a>
+
+<a href="http://cocoapods.org/pods/AGVolumeControlView">
+<img src="https://img.shields.io/cocoapods/l/AGVolumeControlView.svg?style=flat" alt="License">
+</a>
+
+<a href="http://cocoapods.org/pods/AGVolumeControlView">
+<img src="https://img.shields.io/cocoapods/p/AGVolumeControlView.svg?style=flat" alt="Platform">
+</a>
+
+</p>
+
+
+We’re happy to introduce you a new free regulator AGVolumeControlView based on our lightweight open-source visual component that doesn't require extra lines of code and can be easily integrated into your project.
 Visual regulator can be connected to a player or other smart house’s device making the process of controlling the level of a particular characteristic much easier.
-
-[![CI Status](http://img.shields.io/travis/liptugamichael@gmail.com/AGVolumeControlView.svg?style=flat)](https://travis-ci.org/liptugamichael@gmail.com/AGVolumeControlView)
-[![Version](https://img.shields.io/cocoapods/v/AGVolumeControlView.svg?style=flat)](http://cocoapods.org/pods/AGVolumeControlView)
-[![License](https://img.shields.io/cocoapods/l/AGVolumeControlView.svg?style=flat)](http://cocoapods.org/pods/AGVolumeControlView)
-[![Platform](https://img.shields.io/cocoapods/p/AGVolumeControlView.svg?style=flat)](http://cocoapods.org/pods/AGVolumeControlView)
 
 ## Installation
 
