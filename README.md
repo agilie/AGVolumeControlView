@@ -100,7 +100,7 @@ to find the solution or create an new issue that we will fix asap. Feel free to 
 
 
 ## Author
-This iOS visual component is open-sourced by [Agilie Team](https://www.agilie.com) <info@agilie.com>
+This iOS visual component is open-sourced by [Agilie Team](https://www.agilie.com?utm_source=github&utm_medium=referral&utm_campaign=Git_Swift&utm_term=AGVolumeControlView) <info@agilie.com>
 
 
 ## Contributors
@@ -114,4 +114,4 @@ If you have any questions, suggestions or just need a help with web or mobile de
 ## License
 
 AGVolumeControlView is available under
-The [MIT](LICENSE.md) License (MIT) Copyright © 2017 [Agilie Team](https://www.agilie.com) 
+The [MIT](LICENSE.md) License (MIT) Copyright © 2017 [Agilie Team](https://www.agilie.com?utm_source=github&utm_medium=referral&utm_campaign=Git_Swift&utm_term=AGVolumeControlView) 
