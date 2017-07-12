@@ -35,6 +35,10 @@
 We’re happy to introduce you a new free regulator AGVolumeControlView based on our lightweight open-source visual component that doesn't require extra lines of code and can be easily integrated into your project.
 Visual regulator can be connected to a player or other smart house’s device making the process of controlling the level of a particular characteristic much easier.
 
+## Link to Android repo
+
+Check out our Android [VolumeControlView](https://github.com/agilie/VolumeControlView)
+
 ## Installation
 
 AGVolumeControlView is available through [CocoaPods](http://cocoapods.org). To install
