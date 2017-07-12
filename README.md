@@ -50,7 +50,7 @@ pod "AGVolumeControlView"
 
 ## Demo
 
-<img src="https://user-images.githubusercontent.com/4165054/26985499-5b9356c4-4d4c-11e7-8a6c-d61953558ebf.gif" alt="VolumeControlView Demo" height="420" width="260" border ="50">
+<img src="https://user-images.githubusercontent.com/4165054/26985499-5b9356c4-4d4c-11e7-8a6c-d61953558ebf.gif" alt="VolumeControlView Demo" height="430" width="250" border ="50">
 
 ## Example
 
