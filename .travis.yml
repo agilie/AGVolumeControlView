@@ -14,4 +14,4 @@ before_install:
 script:
 - set -o pipefail
 - xcodebuild -workspace Example/AGVolumeControlView.xcworkspace -scheme AGVolumeControlView-Example -sdk iphonesimulator10.0 -destination "OS=10.0,name=iPhone 7 Plus" -configuration Debug ONLY_ACTIVE_ARCH=NO build | xcpretty -c;
-- pod lib lint
+- pod lib lint --allow-warnings
