@@ -10,11 +10,11 @@
 <p align="center">
 
 <a href="https://www.agilie.com?utm_source=github&utm_medium=referral&utm_campaign=Git_Swift&utm_term=AGVolumeControlView">
-<img src="https://img.shields.io/badge/Made%20by%20Agilie-*****-green.svg?style=flat" alt="Made by Agilie">
+<img src="https://img.shields.io/badge/Made%20by-Agilie-green.svg?style=flat" alt="Made by Agilie">
 </a>
 
 <a href="https://travis-ci.org/liptugamichael@gmail.com/AGVolumeControlView">
-<img src="http://img.shields.io/travis/liptugamichael@gmail.com/AGVolumeControlView.svg?style=flat" alt="CI Status">
+<img src="http://img.shields.io/travis/agilie/AGVolumeControlView.svg?style=flat" alt="CI Status">
 </a>
 
 <a href="http://cocoapods.org/pods/AGVolumeControlView">
